@@ -1,0 +1,177 @@
+.bg-dark{
+	background-color:#000!important;
+}
+	
+.nav-item{
+	
+	text-transform:uppercase;
+	
+}
+#copyright{
+	background:gray;
+}
+.carousel-item{
+	height:500px;
+}
+.carousel-img-1{
+	background:url('../img/dd.jpeg');
+	background-size:cover;
+	
+}
+.carousel-img-2{
+	background:url('../img/p2.jpeg');
+	background-size:cover;
+	
+}
+.carousel-img-3{
+	background:url('../img/p3.jpeg');
+	background-size:cover;
+	
+}
+
+
+.icon-plus,.icon-gears,.icon-cloud{
+	
+	font-size:50px;
+}
+#getstart{
+	position:relative;
+	background:url('../img/pp.jpeg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	 min-height:260px;
+}
+.dark-overlay{
+	background:rgba(0,0,0,0.6);
+	height:100%;
+    width:100%;
+	position:absolute;
+	top:0;
+
+}
+#home-video i{
+	font-size:45px;
+    text-decoration:none;
+	padding:5px;
+	color:red;
+	border-radius:5px;
+}
+#home-video{
+	position:relative;
+	background:url('../img/mm.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	 min-height:220px;
+}
+.overlay{
+	background:rgba(0,0,0,0.6);
+	height:100%;
+    width:100%;
+	position:absolute;
+	top:0;
+
+}
+.carousel-indicators li {
+
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 5px;
+
+}
+
+#Gelary img{
+	min-height:220px;
+}
+/********** home pase css *******/
+
+
+#home-pase{
+	
+	background:url('../img/ww.jpeg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	 min-height:220px;
+}
+
+#services-pase{
+	
+	background:url('../img/ww.jpeg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	 min-height:220px;
+}
+
+#blog-pase{
+	
+	background:url('../img/ww.jpeg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	 min-height:220px;
+}
+
+#contact-pase{
+	
+	background:url('../img/ww.jpeg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	 min-height:220px;
+
+}
+#theretpart .fa{
+	
+	font-size:35px;
+}
+
+/***** testmonial css*****/ 
+
+
+#testmonial .slider .slick-prev::before, .slick-next::before {
+	color:  #000;
+	font-size:30px;
+	
+}
+
+#testmonial .slider .slick-next::before, .slick-prev::before  {
+	color:  #000;
+	font-size:30px;
+}
+
+
+@media(max-width:568px){
+	.carousel h2{
+		font-size: 2.5rem;
+       font-weight: 250;
+       line-height: 1.2;
+	}
+@media(max-width:358px){
+	.carousel h2{
+		font-size: 1.5rem;
+       font-weight: 250;
+       line-height: 1.2;
+	}
+	
+	
+	
+}
+
+
+
+@media(max-width: 767px){
+	#getstart .col p{
+		padding-bottom:30px;
+				
+	}
+	#getstart .col{
+		padding-bottom:30px;
+		height:280px;		
+	}
+}
